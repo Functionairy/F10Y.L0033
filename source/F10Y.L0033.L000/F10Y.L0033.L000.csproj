@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup Label="Main">
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <NoWarn>CS1573;CS1587;CS1591;IDE0130;CA1860</NoWarn>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
@@ -8,14 +8,13 @@
     <Version>0.0.1</Version>
     <Authors>DCoats</Authors>
     <Copyright>Copyright (c) Functionairy 2025</Copyright>
-    <Description>Quartz.NET scheduler library.</Description>
+    <Description>A netstandard2.1-specific library for the F10Y.L0033 Quartz.NET scheduler library.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <RepositoryUrl>https://github.com/Functionairy/F10Y.L0033.git</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\F10Y.L0060\source\F10Y.L0060\F10Y.L0060.csproj" />
-    <ProjectReference Include="..\..\..\F10Y.L0063.Private\source\F10Y.L0063\F10Y.L0063.csproj" />
-    <ProjectReference Include="..\F10Y.L0033.L000\F10Y.L0033.L000.csproj" />
+    <ProjectReference Include="..\..\..\F10Y.L0001\source\F10Y.L0001.X000\F10Y.L0001.X000.csproj" />
+    <ProjectReference Include="..\..\..\F10Y.L0020\source\F10Y.L0020\F10Y.L0020.csproj" />
+    <ProjectReference Include="..\..\..\F10Y.NG0010\source\F10Y.NG0010\F10Y.NG0010.csproj" />
   </ItemGroup>
 </Project>
